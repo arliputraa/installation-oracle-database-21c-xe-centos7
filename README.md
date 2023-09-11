@@ -32,20 +32,24 @@ Use yum to install wget command
 
 Running this command and retry the installation.
 
-    sudo chown -R oracle:oinstall /opt/oracle # this is a prerequisite from Oracle, there is no workaround for that
+    sudo chown -R oracle:oinstall /opt/oracle # this is a prerequisite from Oracle, there is no workaround for that.
 
-Note: softlink will not provide full access and\or ownership on the original directory
+Note: softlink will not provide full access and\or ownership on the original directory.
 
 ### Creating and configuring Oracle Database
 Create the database by running the configure operation. When prmpted, provide the passwords for SYS, SYSTEM and PDBADMIN users. This takes a few minustes to complete.
 
     /etc/init.d/oracle-xe-21c configure
 
-![image](https://github.com/arliputraa/installation-oracle-database-21c-xe-centos7/assets/110078907/a257df09-0539-43eb-8ad5-ae8231553b9c)
+![image](https://github.com/arliputraa/installation-oracle-database-21c-xe-centos7/assets/110078907/a76a8516-a6a2-4f5e-84af-a3d01f2f434c)
 
 This completes Oracle Database 21c XE installation and configuration. It is recommended to setup the environment variables before starting to use Oracle Database XE.
 
-![image](https://github.com/arliputraa/installation-oracle-database-21c-xe-centos7/assets/110078907/be809f84-36e1-427a-97a6-3df329c2ba00)
+![image](https://github.com/arliputraa/installation-oracle-database-21c-xe-centos7/assets/110078907/ee11cc45-93f8-461e-91b6-9e069779d316)
+
+
+
+
 
 
 
